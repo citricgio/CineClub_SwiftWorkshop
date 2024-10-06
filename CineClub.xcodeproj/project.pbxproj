@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		08B381B82CAE1D1F002F2041 /* CineClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B381B72CAE1D1F002F2041 /* CineClubApp.swift */; };
-		08B381BA2CAE1D1F002F2041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B381B92CAE1D1F002F2041 /* ContentView.swift */; };
 		08B381BC2CAE1D21002F2041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B381BB2CAE1D21002F2041 /* Assets.xcassets */; };
 		08B381BF2CAE1D21002F2041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B381BE2CAE1D21002F2041 /* Preview Assets.xcassets */; };
+		08B381F12CB35986002F2041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B381F02CB35986002F2041 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08B381B42CAE1D1F002F2041 /* CineClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B381B72CAE1D1F002F2041 /* CineClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineClubApp.swift; sourceTree = "<group>"; };
-		08B381B92CAE1D1F002F2041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08B381BB2CAE1D21002F2041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B381BE2CAE1D21002F2041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08B381E52CAF6640002F2041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		08B381F02CB35986002F2041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,8 @@
 		08B381B62CAE1D1F002F2041 /* CineClub */ = {
 			isa = PBXGroup;
 			children = (
-				08B381B72CAE1D1F002F2041 /* CineClubApp.swift */,
-				08B381B92CAE1D1F002F2041 /* ContentView.swift */,
+				08B381E52CAF6640002F2041 /* Info.plist */,
+				08B381D82CAE2608002F2041 /* Main */,
 				08B381BB2CAE1D21002F2041 /* Assets.xcassets */,
 				08B381BD2CAE1D21002F2041 /* Preview Content */,
 			);
@@ -65,6 +66,15 @@
 				08B381BE2CAE1D21002F2041 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08B381D82CAE2608002F2041 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				08B381B72CAE1D1F002F2041 /* CineClubApp.swift */,
+				08B381F02CB35986002F2041 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B381BA2CAE1D1F002F2041 /* ContentView.swift in Sources */,
+				08B381F12CB35986002F2041 /* ContentView.swift in Sources */,
 				08B381B82CAE1D1F002F2041 /* CineClubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +285,13 @@
 				DEVELOPMENT_TEAM = 543L4H35A3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineClub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +316,13 @@
 				DEVELOPMENT_TEAM = 543L4H35A3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CineClub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
