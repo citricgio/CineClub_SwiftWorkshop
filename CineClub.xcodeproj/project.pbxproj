@@ -11,6 +11,8 @@
 		08B381BC2CAE1D21002F2041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B381BB2CAE1D21002F2041 /* Assets.xcassets */; };
 		08B381BF2CAE1D21002F2041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B381BE2CAE1D21002F2041 /* Preview Assets.xcassets */; };
 		08B381F12CB35986002F2041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B381F02CB35986002F2041 /* ContentView.swift */; };
+		08B382022CB38F74002F2041 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B382012CB38F74002F2041 /* MoviesView.swift */; };
+		08B382042CB38F9A002F2041 /* FavoriteMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B382032CB38F9A002F2041 /* FavoriteMoviesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		08B381BE2CAE1D21002F2041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08B381E52CAF6640002F2041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		08B381F02CB35986002F2041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08B382012CB38F74002F2041 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		08B382032CB38F9A002F2041 /* FavoriteMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				08B381D82CAE2608002F2041 /* Main */,
 				08B381BB2CAE1D21002F2041 /* Assets.xcassets */,
 				08B381BD2CAE1D21002F2041 /* Preview Content */,
+				08B382012CB38F74002F2041 /* MoviesView.swift */,
+				08B382032CB38F9A002F2041 /* FavoriteMoviesView.swift */,
 			);
 			path = CineClub;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B381F12CB35986002F2041 /* ContentView.swift in Sources */,
+				08B382042CB38F9A002F2041 /* FavoriteMoviesView.swift in Sources */,
+				08B382022CB38F74002F2041 /* MoviesView.swift in Sources */,
 				08B381B82CAE1D1F002F2041 /* CineClubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
