@@ -24,6 +24,8 @@ struct MoviesView: View {
     }
 }
 
-#Preview {
-    MoviesView()
+struct MoviesView_Previews: PreviewProvider {
+    static var previews: some View {
+        MoviesView()
+    }
 }
