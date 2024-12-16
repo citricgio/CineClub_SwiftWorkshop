@@ -1,5 +1,5 @@
 # Oficina de Swift
-Workshop promovido pela Apple Developer Academy | Mackenzie para alunos da universidade
+Workshop de introdução ao desenvolvimento iOS, promovido pela Apple Developer Academy | Mackenzie para alunos da universidade
 ### 🎬🍿 CineClub
 - **Descrição**: Aplicativo para visualização e ranking de filmes
 - **Tecnologias**: Swift, SwiftUI
